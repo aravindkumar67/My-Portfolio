@@ -72,7 +72,7 @@ function App() {
     }
     
     try {
-      const response = await fetch('http://battuaravindkumar.vercel.app/api/contact', {
+      const response = await fetch('https://my-portfolio-server-beryl.vercel.app/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
