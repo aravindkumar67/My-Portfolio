@@ -660,18 +660,18 @@ function App() {
             >
               <h3 className="text-2xl font-semibold">Contact Information</h3>
               <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-                Feel free to reach out for collaborations or just a friendly hello. You can also schedule an interview, get your resume reviewed, or have an audio call through Unikcon.ai.
+                Feel free to reach out for collaborations or just a friendly hello. You can also schedule an interview, get your resume reviewed, or have an audio call through topmate.io
               </p>
               <div className="space-y-4">
                 <ContactInfo icon={<Mail />} text="akaravindkumar67@gmail.com" darkMode={darkMode} />
                 <ContactInfo icon={<MapPin />} text="Ongole, Andhra Pradesh, India" darkMode={darkMode} />
-                <ContactInfo icon={<ExternalLink />} text="unikcon.ai/profile/aravindkumar" darkMode={darkMode} />
+                <ContactInfo icon={<ExternalLink />} text="https://topmate.io/battu_aravind_kumar/" darkMode={darkMode} />
               </div>
               <div className="flex space-x-4 pt-4">
                 <SocialLink href="https://github.com/aravindkumar67" icon={<Github />} darkMode={darkMode} />
                 <SocialLink href="https://www.linkedin.com/in/battu-aravind-kumar-02906a23b" icon={<Linkedin />} darkMode={darkMode} />
                 <SocialLink href="mailto:akaravindkumar67@gmail.com" icon={<Mail />} darkMode={darkMode} />
-                <SocialLink href="https://unikcon.ai/profile/aravindkumar" icon={<ExternalLink />} darkMode={darkMode} />
+                <SocialLink href="https://topmate.io/battu_aravind_kumar/" icon={<ExternalLink />} darkMode={darkMode} />
               </div>
             </motion.div>
             <motion.form
