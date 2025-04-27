@@ -462,13 +462,13 @@ function App() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {[
                 { name: "Java", level: 90 },
+                { name: "SQL", level: 90 },
                 { name: "Python", level: 85 },
+                { name: "Java Swing", level: 80 },
+                { name: "HTML/CSS", level: 90 },
                 { name: "JavaScript", level: 80 },
                 { name: "DSA", level: 85 },
-                { name: "SQL", level: 90 },
-                { name: "Spring & Spring Boot", level: 85 },
-                { name: "Java Swing", level: 80 },
-                { name: "HTML/CSS", level: 90 }
+                { name: "Spring & Spring Boot", level: 85 }
               ].map((skill) => (
                 <div 
                   key={skill.name}
